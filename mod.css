@@ -1,0 +1,198 @@
+body{
+  padding: 2px;
+  margin: 5px;
+  background: #FFFFFF;
+  color:#FFFFFF;
+
+
+
+
+}
+
+.left{
+  box-sizing: border-box;
+  float:left;
+  border:2px groove #000000 ;
+  border-color: inherit;
+  width:20%;
+  height: 150vh;
+  text-align: center;
+  background: #778899;
+
+}
+h1{
+  color: #FFDAB9;
+  font-weight:900;
+
+}
+
+.right{
+  box-sizing: border-box;
+  border:2px groove #000000;
+  border-color: inherit;
+
+  float: right;
+  width:79.99%;
+ background-image: url("2.jpg") ;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: 0.75;
+  color:#000000;
+  font-weight:900;
+
+
+ height: 150vh;
+
+}
+a{
+  text-decoration: none;
+  color:#ffffff;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-delay: 0.3s;
+  transition-timing-function: ease-in;
+}
+
+body img{
+  padding: 5px;
+  margin: 2px;
+  margin-top: 50px;
+}
+
+}
+/*footer{
+  background: #F8F8FF;
+  clear: both;
+  text-align: left;
+  color: #000000;
+}*/
+a:hover{
+  color:#F0E68C;
+  text-decoration: underline;
+
+}
+
+a:active{
+
+  text-decoration: underline;
+}
+.active{
+  text-decoration: underline;
+  color:#000000;
+  opacity:0.75;
+}
+
+section>h2 {
+  font-family: "Courier New";
+  text-align: center;
+}
+
+.left>img{
+  border-radius: 50%;
+}
+
+.right h4{
+
+  margin-left: 50px;
+
+}
+details summary{
+  font-size: 150%;
+  font-family: monospace;
+}
+.right details{
+   margin-left: 50px;
+}
+.right ul li{
+  font-size: 125%;
+}
+.right ul >li{
+  font-size: 150%;
+  font-family: monospace;
+}
+.right ul{
+  margin-left: 50px;
+}
+#intro{
+  float:left;
+  font-size: 150%;
+  margin-left: 50px;
+}
+.i1{
+  width:10%;
+}
+
+aside h3{
+  font-size: 400%;
+}
+
+.but {
+  background-color: #778899;
+  /*background-color: rgba(0, 0, 0,0.4);/* Green */
+  border: 1px hidden #2f4f4f;
+  color: white;
+  border-radius: 20%;
+  overflow: hidden;
+  box-shadow:0px 0px 0px 0px rgba(0,0,0,1);
+  padding-left: 15px;
+  padding-right: 15px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+.but:hover{
+  transform: translate(0,-5px);
+  background: #778899;
+  background: rgba(0, 0, 0, 0.5);
+}
+.but:hover::after{
+  transform: translate(0);
+}
+.left h2{
+  color: #FFDAB9;
+}
+a:hover{
+  color:#F0E68C;
+  text-decoration: underline;
+
+}
+
+/*
+#int{
+  background-image: url("Gardening.jpg");
+
+
+ height: 100vh;
+
+
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#sof{
+  background-image: url("softskills.png");
+
+
+ height: 100vh;
+
+
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#pro{
+
+  background-image: url("projects.jpg");
+ color:#800000;
+
+
+ height: 100vh;
+
+
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
